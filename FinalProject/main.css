@@ -1,0 +1,136 @@
+
+	
+	.login-form input[type=text],
+	.login-form input[type=password],
+	.login-form input[type=submit] {
+	    line-height: 14px;
+	    margin: 10px 0;
+	    padding: 6px 15px;
+	    border: 3px 3px;
+	    outline: 3px 2px;
+		
+ 
+	    font-family: Helvetica, sans-serif;
+	    font-size: 12px;
+	    font-weight: bold;
+	    text-shadow: 0px 1px 1px rgba(255,255,255, .2);
+ 
+	    -webkit-border-radius: 26px;
+	    -moz-border-radius: 26px;
+	    border-radius: 26px;
+ 
+	    -webkit-transition: all .15s ease-in-out;
+	    -moz-transition: all .15s ease-in-out;
+	    -o-transition: all .15s ease-in-out;
+	    transition: all .15s ease-in-out;
+	
+   }
+ 
+  
+.div{
+	float:right;
+	border:5px solid cyan;
+}	
+	
+li > ul { display: none; }
+li li { margin-left: 10px; }
+	
+ul li:hover ul {
+display:block;
+}
+
+.nav{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+	width: 150px;
+	position: relative;
+}
+
+.nav li a {
+	background: #333;
+	color: #fff;
+	display: block;
+	padding: 7px 8px;
+	text-decoration: none;
+	border-top: 1px solid #069;
+}
+
+.nav li a:hover {
+	color: #069;
+}
+
+body.home1{
+	background-image: url('images/image1.jpg');
+	position: relative; 
+ }
+
+body.list{
+	background-image: url("images/image3.jpg");
+}
+body.renter{
+	background-image: url("images/image3.jpg");
+}
+body.update{
+	background-image: url("images/image3.jpg");
+}
+body.about{
+	background-image: url("images/image3.jpg");
+}
+body.signup{
+	background-image: url("images/image3.jpg");
+}
+
+body.contact{
+	text-align: center;
+	
+}
+     
+h1.home{
+	margin: 0;
+	padding:0;
+	float:left;
+}
+
+h2.home{
+	margin: 0;
+	padding:0;
+	text-align:right;
+	font-style:italic;
+}	
+
+h5.home{
+	margin: 0;
+	padding:0;
+	text-align:right;
+	font-style:italic;
+}
+
+h4.home{
+	margin: 0;
+	padding:0;
+	text-align:right;
+	font-style:italic;
+}
+	
+form.search{
+	
+	font-size:25px;
+}
+
+form.list{
+	
+	font-size:25px;
+}
+	
+form.renter{
+	font-size:25px;
+}
+
+
+
+
